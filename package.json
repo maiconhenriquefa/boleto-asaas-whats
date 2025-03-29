@@ -1,0 +1,12 @@
+{
+  "name": "boleto-whats",
+  "version": "1.0.0",
+  "description": "Projeto que integra a API do **Asaas** para gerar boletos e enviá-los automaticamente via WhatsApp com mensagens personalizadas.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently \"cd backend/src && node server.js\" \"cd frontend && yarn dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
